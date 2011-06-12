@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal" android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<EditText android:id="@+id/url" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="http://127.0.0.1:8080" />
+		<Button android:id="@+id/button" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="Go" android:onClick="onClickGoButton"/>
+	</LinearLayout>
+	<android.webkit.WebView android:id="@+id/webview"
+		android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

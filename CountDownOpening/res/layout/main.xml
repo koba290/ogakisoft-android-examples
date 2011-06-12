@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ProgressBar android:id="@+android:id/progress"
+        android:layout_width="250dip"
+        android:layout_height="250dip"
+        android:layout_gravity="center_horizontal|center_vertical" />
+
+	<TextView android:id="@+id/counter"
+	    android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textSize="70dip"
+        android:gravity="center_horizontal|center_vertical" />
+
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GridViewWithCheckBoxForRemove</string>
+    <string name="remove_button">remove checked image</string>
+<string name="loading">loading...</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<GridView android:id="@+id/gridview" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:padding="3dp"
+		android:verticalSpacing="3dp" android:horizontalSpacing="3dp"
+		android:numColumns="auto_fit" android:columnWidth="60dp"
+		android:stretchMode="columnWidth" android:gravity="center"
+		android:layout_weight="1" />
+
+	<LinearLayout style="@android:style/ButtonBar"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:orientation="horizontal">
+
+		<Button android:id="@+id/done" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:text="Done"
+			android:onClick="onClickDoneButton" />
+
+	</LinearLayout>
+
+</LinearLayout>
