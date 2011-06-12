@@ -19,27 +19,31 @@ public class TextWatcherActivity extends Activity {
     private EditText mPicker;
     private PopupWindow mPopupWindow;
 
-    class DigitInputFilter implements InputFilter {
-	@Override
-	public CharSequence filter(CharSequence source, int start, int end,
-		Spanned dest, int dstart, int dend) {
-	    int pos = -1;
-	    for (int i = start; i < end; i++) {
-		if (!Character.isDigit(source.charAt(i))) {
-		    pos = i;
-		    break;
-		}
-	    }
-	    String s = null; // null means 'keep original input string'
-	    if (pos > 0) {
-		char[] v = new char[pos - start];
-		TextUtils.getChars(source, start, pos, v, 0);
-		s = new String(v);
-	    } else if (pos == 0) {
-		s = "";
-	    }
-	    return s;
-	}
+    public class DigitInputFilter implements InputFilter {
+        @Override
+        public CharSequence filter(CharSequence source, int start, int end,
+                Spanned dest, int dstart, int dend) {
+            String str = null; // null means 'keep original input string'
+            int pos = -1;
+            final String allow = "1234567890";
+            char[] buf = new char[end - start];
+            TextUtils.getChars(source, start, end, buf, 0);
+            final int count = buf.length;
+            for (int i = 0; i < count; i++) {
+                if (allow.indexOf(buf[i]) < 0) {
+                    pos = i;
+                    break;
+                }
+            }
+            if (pos > 0) {
+                buf = new char[pos - start];
+                TextUtils.getChars(source, start, pos, buf, 0);
+                str = new String(buf);
+            } else if (0 == pos) {
+                str = "";
+            }
+            return str;
+        }
     }
 
     @Override
