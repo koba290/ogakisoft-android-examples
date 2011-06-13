@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">フッキン カウンター</string>
+	<string name="clickToStart">開始</string>
+	<string name="clickToStop">停止</string>
+	<string name="startDate">開始日時: </string>
+	<string name="elapsedTime">経過時間: </string>
+	<string name="guideText"></string>
+	
+	<string name="title_preferences">フッキンカウンター設定</string>
+	<string name="pref_category_count">カウント設定</string>
+	<string name="pref_soundEnabled_title">効果音のオン・オフ</string>
+	<string name="pref_soundEnabled_summary"></string>
+	
+	<string name="pref_category_sensor">センサー設定</string>
+	<string name="pref_sampling_title">感度</string>
+	<string name="pref_sampling_summary">範囲:1~20, 規定値:10</string>
+	<string name="pref_pitchTop_title">傾斜角の初め角度</string>
+	<string name="pref_pitchTop_summary">範囲:-180~180, 既定値:40</string>
+	<string name="pref_pitchBottom_title">傾斜角の終わり角度</string>
+	<string name="pref_pitchBottom_summary">範囲:-180~180, 既定値: 20</string>
+	<string name="pref_rollTop_title">回転角の初め角度</string>
+	<string name="pref_rollTop_summary">範囲:-90~90, 既定値:+-40</string>
+	<string name="pref_rollBottom_title">回転角の終わり角度</string>
+	<string name="pref_rollBottom_summary">範囲:-90~90, 既定値:+-20</string>
+	<string name="pref_summary_current">, 現在値:</string>
+	
+	<string name="menu_reset">リセット</string>
+	<string name="menu_history">履歴</string>
+	<string name="menu_settings">設定</string>
+	
+	<string name="button_clear">全消去</string>
+	<string name="button_cancel">戻る</string>
+	
+	<string name="title_history">フッキンカウンター履歴</string>
+	<string name="history_item1">日付</string>
+	<string name="history_item2">カウント値</string>
+	<string name="history_item3">経過時間</string>
+	
+	<string name="err_illegal_numeric">数値が範囲外です</string>
+	<string name="err_no_sensor">センサーがありません</string>
+</resources>

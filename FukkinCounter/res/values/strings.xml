@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Fukkin Counter</string>
+	<string name="clickToStart">Start</string>
+	<string name="clickToStop">Stop</string>
+	<string name="startDate">Start: </string>
+	<string name="elapsedTime">Elapsed: </string>
+	<string name="guideText"></string>
+
+	<string name="title_preferences">Fukkin Counter - Settings</string>
+	<string name="pref_category_count">Counter</string>
+	<string name="pref_soundEnabled_title">Sound On/Off</string>
+	<string name="pref_soundEnabled_summary"></string>
+
+	<string name="pref_category_sensor">Sensor</string>
+	<string name="pref_sampling_title">Sensitivity</string>
+	<string name="pref_sampling_summary">range:1~20, default:10</string>
+	<string name="pref_pitchTop_title">Pitch Top</string>
+	<string name="pref_pitchTop_summary">range:-180~180, default:40</string>
+	<string name="pref_pitchBottom_title">Pitch Bottom</string>
+	<string name="pref_pitchBottom_summary">range:-180~180, default:20</string>
+	<string name="pref_rollTop_title">Roll Top</string>
+	<string name="pref_rollTop_summary">range:-90~90, default:+-40</string>
+	<string name="pref_rollBottom_title">Roll Bottom</string>
+	<string name="pref_rollBottom_summary">range:-90~90, default:+-20</string>
+	<string name="pref_summary_current">, current:</string>
+
+	<string name="menu_reset">RESET</string>
+	<string name="menu_history">HISTORY</string>
+	<string name="menu_settings">PREFERENCES</string>
+
+	<string name="button_clear">All Clear</string>
+	<string name="button_cancel">Close</string>
+
+	<string name="title_history">Fukkin Counter - History</string>
+	<string name="history_item1">Date</string>
+	<string name="history_item2">Count</string>
+	<string name="history_item3">Elapsed</string>
+
+	<string name="err_illegal_numeric">Illegal Numeric Value</string>
+	<string name="err_no_sensor">No Sensor</string>
+</resources>

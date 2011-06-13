@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="@string/pref_category_count">
+		<CheckBoxPreference
+			android:key="soundEnabled"
+			android:title="@string/pref_soundEnabled_title"
+			android:summary="@string/pref_soundEnabled_summary"
+			android:defaultValue="true" />
+		<CheckBoxPreference
+			android:key="tapEnabled"
+			android:title="@string/pref_tapEnabled_title"
+			android:summary="@string/pref_tapEnabled_summary"
+			android:defaultValue="true" />
+		<CheckBoxPreference
+			android:key="shakeEnabled"
+			android:title="@string/pref_shakeEnabled_title"
+			android:summary="@string/pref_shakeEnabled_summary"
+			android:defaultValue="true" />
+		<ListPreference
+			android:key="countIncDec"
+			android:title="@string/pref_countIncDec_title"
+			android:summary="@string/pref_countIncDec_summary"
+			android:entries="@array/count_entries" android:entryValues="@array/count_values"
+			android:defaultValue="INC" />
+		<ogakisoft.android.furefurecounter.EditDigitPreference  
+			android:key="countInitValue" 
+			android:title="@string/pref_countInitValue_title"
+			android:summary="@string/pref_countInitValue_summary"
+			android:defaultValue="0" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/pref_category_shake">
+		<ogakisoft.android.furefurecounter.EditDigitPreference  
+			android:key="pitchBottom"
+			android:title="@string/pref_pitchBottom_title"
+			android:summary="@string/pref_pitchBottom_summary"
+			android:defaultValue="10" />
+		<ogakisoft.android.furefurecounter.EditDigitPreference  
+			android:key="pitchTop"
+			android:title="@string/pref_pitchTop_title"
+			android:summary="@string/pref_pitchTop_summary"
+			android:defaultValue="60" />
+   	</PreferenceCategory>
+</PreferenceScreen>

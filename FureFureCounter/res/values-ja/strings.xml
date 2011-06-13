@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">フレフレ カウンター</string>
+	<string name="clickToStart">開始</string>
+	<string name="clickToStop">停止</string>
+	<string name="startDate">開始日時: </string>
+	<string name="elapsedTime">経過時間: </string>
+	<string name="guideText">左右に振るか、数字をタップ</string>
+	
+	<string name="title_preferences">フレフレカウンター設定</string>
+	<string name="pref_category_count">カウント設定</string>
+	<string name="pref_soundEnabled_title">効果音のオン・オフ</string>
+	<string name="pref_soundEnabled_summary"></string>
+	<string name="pref_tapEnabled_title">画面タップでカウント</string>
+	<string name="pref_tapEnabled_summary">左右振りしないなら必須</string>
+	<string name="pref_shakeEnabled_title">左右に振ってカウント</string>
+	<string name="pref_shakeEnabled_summary">画面タップしないなら必須</string>
+	<string name="pref_countIncDec_title">カウントの増減</string>
+	<string name="pref_countIncDec_IncValue">+1</string>
+	<string name="pref_countIncDec_DecValue">-1</string>
+	<string name="pref_countIncDec_summary"></string>
+	<string name="pref_countInitValue_title">カウントの初期値</string>
+	<string name="pref_countInitValue_summary"></string>
+	
+	<string name="pref_category_shake">シェイク設定</string>
+	<string name="pref_pitchBottom_title">X軸からの角度（傾き）</string>
+	<string name="pref_pitchBottom_summary"></string>
+	<string name="pref_pitchTop_title">X軸からの角度（直立）</string>
+	<string name="pref_pitchTop_summary"></string>
+	
+	<string name="menu_reset">リセット</string>
+	<string name="menu_history">履歴</string>
+	<string name="menu_settings">設定</string>
+	<string name="menu_count_plus_1">+1</string>
+	<string name="menu_count_minus_1">-1</string>
+	
+	<string name="button_clear">全消去</string>
+	<string name="button_cancel">戻る</string>
+	
+	<string name="title_history">フレフレカウンター履歴</string>
+	<string name="history_item1">日付</string>
+	<string name="history_item2">カウント値</string>
+	<string name="history_item3">経過時間</string>
+	
+	<string name="err_nodata">データなし</string>
+	<string name="err_illegal_numeric">数値ではありません</string>
+	<string name="err_no_sensor">センサーがありません</string>
+	<string name="err_tap_disabled">タップは無効に設定されています</string>
+	<string name="err_shake_disabled">左右振りは無効に設定されています</string>
+	<string name="err_adjust_status_stop">停止状態のためカウントは調整できません</string>
+
+</resources>

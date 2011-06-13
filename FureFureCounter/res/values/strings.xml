@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fure Fure Counter</string>
+	<string name="clickToStart">Start</string>
+	<string name="clickToStop">Stop</string>
+	<string name="startDate">Start: </string>
+	<string name="elapsedTime">Elapsed: </string>
+	<string name="guideText">Shake or Tap on the number</string>
+	
+	<string name="title_preferences">Fure Fure Counter - Settings</string>
+	<string name="pref_category_count">Counter</string>
+	<string name="pref_soundEnabled_title">Sound On/Off</string>
+	<string name="pref_soundEnabled_summary"></string>
+	<string name="pref_tapEnabled_title">Tap Count On/Off</string>
+	<string name="pref_tapEnabled_summary"></string>
+	<string name="pref_shakeEnabled_title">Shake Count On/Off</string>
+	<string name="pref_shakeEnabled_summary"></string>
+	<string name="pref_countIncDec_title">Increment/Decrement</string>
+	<string name="pref_countIncDec_summary"></string>
+	<string name="pref_countIncDec_IncValue">+1</string>
+	<string name="pref_countIncDec_DecValue">-1</string>
+	<string name="pref_countInitValue_title">Initial Value</string>
+	<string name="pref_countInitValue_summary"></string>
+	
+	<string name="pref_category_shake">Shake Sense</string>
+	<string name="pref_pitchBottom_title">X-axis angle (rotate)</string>
+	<string name="pref_pitchBottom_summary"></string>
+	<string name="pref_pitchTop_title">X-axis angle (stand-up)</string>
+	<string name="pref_pitchTop_summary"></string>
+	
+	<string name="menu_reset">RESET</string>
+	<string name="menu_history">HISTORY</string>
+	<string name="menu_settings">PREFERENCES</string>
+	<string name="menu_count_plus_1">+1</string>
+	<string name="menu_count_minus_1">-1</string>
+	
+	<string name="button_clear">All Clear</string>
+	<string name="button_cancel">Close</string>
+	
+	<string name="title_history">Fure Fure Counter - History</string>
+	<string name="history_item1">Date</string>
+	<string name="history_item2">Count</string>
+	<string name="history_item3">Elapsed</string>
+	
+	<string name="err_nodata">No Data</string>
+	<string name="err_illegal_numeric">Illegal Numeric Value</string>
+	<string name="err_no_sensor">No Sensor</string>
+	<string name="err_tap_disabled">Disabled Tap Count</string>
+	<string name="err_shake_disabled">Disabled Shake Count</string>
+	<string name="err_adjust_status_stop">Cannot adjust counter in STOP state</string>
+</resources>

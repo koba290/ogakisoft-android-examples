@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="@string/pref_category_count">
+		<CheckBoxPreference
+			android:key="soundEnabled"
+			android:title="@string/pref_soundEnabled_title"
+			android:summary="@string/pref_soundEnabled_summary"
+			android:defaultValue="true" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/pref_category_sensor">
+		<ogakisoft.android.fukkincounter.EditDigitPreference  
+			android:key="sampling"
+			android:title="@string/pref_sampling_title"
+			android:summary="@string/pref_sampling_summary"
+			android:defaultValue="10" />
+		<ogakisoft.android.fukkincounter.EditDigitPreference  
+			android:key="pitchTop"
+			android:title="@string/pref_pitchTop_title"
+			android:summary="@string/pref_pitchTop_summary"
+			android:defaultValue="40" />
+		<ogakisoft.android.fukkincounter.EditDigitPreference  
+			android:key="pitchBottom"
+			android:title="@string/pref_pitchBottom_title"
+			android:summary="@string/pref_pitchBottom_summary"
+			android:defaultValue="20" />
+		<ogakisoft.android.fukkincounter.EditDigitPreference  
+			android:key="rollTop"
+			android:title="@string/pref_rollTop_title"
+			android:summary="@string/pref_rollTop_summary"
+			android:defaultValue="40" />
+		<ogakisoft.android.fukkincounter.EditDigitPreference  
+			android:key="rollBottom"
+			android:title="@string/pref_rollBottom_title"
+			android:summary="@string/pref_rollBottom_summary"
+			android:defaultValue="20" />
+   	</PreferenceCategory>
+</PreferenceScreen>

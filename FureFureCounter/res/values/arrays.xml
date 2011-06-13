@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string-array name="count_entries">
+		<item>INCREMENT</item>
+		<item>DECREMENT</item>
+	</string-array>
+	<string-array name="count_values">
+		<item>INC</item>
+		<item>DEC</item>
+	</string-array>
+</resources>

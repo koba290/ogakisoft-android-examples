@@ -1,0 +1,18 @@
+README
+
+2010-08-04 ver1.0
+	first release
+	
+2010-08-08 ver1.1
+	ORIENTATITION LOCK-RELEASE ... onStop(), finish(); release, onResume(); lock
+	CONTEXT MENU ... count +1, count -1
+	PREFERENCES summary ... current value
+	
+2010-09-21 ver1.2
+	Settings; DigitInputFilter, EditDigitPreference ... for numeric edit-text 
+	HistoryActivity; Close button ... new
+	HistoryActivity; Clear button ... return CounterActivity
+	CounterActivity; saveHistory() ... synchronized(out)
+	CounterActivity; doInBackground() ... Thread -> Runnable, InterruptedException; return
+	CounterActivity; onClickStartStop() ... mTask.cancel(true) -> check before mTask != null
+	

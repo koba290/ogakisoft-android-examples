@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">	
+    
+	<ListView android:id="@android:id/list"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_weight="1" />
+		
+<!--
+	<TextView android:id="@android:id/empty"
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:gravity="center_vertical|center_horizontal"
+		android:textSize="16pt"
+		android:text="@string/err_nodata"/>
+-->
+           		
+    <LinearLayout
+        style="@android:style/ButtonBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClickButtonClear"
+            android:text="@string/button_clear" />
+            
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClickButtonCancel"
+            android:text="@string/button_cancel" />
+    </LinearLayout>
+</LinearLayout>
